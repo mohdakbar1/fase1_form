@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fest 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+        <h1>Tech Fest 2026</h1>
+        <p class="subjudul">Form Pendaftaran Peserta</p>
+
+        <form id="formPendaftaran">
+
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+            <small id="errorNama"></small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Masukkan email">
+            <small id="errorEmail"></small>
+
+            <label for="kelas">Kelas</label>
+            <select id="kelas">
+                <option value="">-- Pilih Kelas --</option>
+                <option value="X">X</option>
+                <option value="XI">XI</option>
+                <option value="XII">XII</option>
+            </select>
+            <small id="errorKelas"></small>
+
+            <label for="jurusan">Jurusan</label>
+            <select id="jurusan">
+                <option value="">-- Pilih Jurusan --</option>
+                <option value="RPL">RPL</option>
+                <option value="Multimedia">Multimedia</option>
+                <option value="TKJ">TKJ</option>
+            </select>
+            <small id="errorJurusan"></small>
+
+            <label for="kegiatan">Kegiatan</label>
+            <input type="text" id="kegiatan" placeholder="Masukkan kegiatan">
+            <small id="errorKegiatan"></small>
+
+            <div class="checkbox">
+                <input type="checkbox" id="syarat">
+                <label for="syarat">
+                    Saya menyetujui syarat dan ketentuan
+                </label>
+            </div>
+
+            <small id="errorSyarat"></small>
+
+            <button type="submit">
+                Daftar Sekarang
+            </button>
+
+        </form>
+
+        <div id="hasil"></div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

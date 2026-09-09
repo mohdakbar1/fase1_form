@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #2563eb);
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #166534;
+    margin-bottom: 10px;
+}
+
+.subjudul {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+small {
+    display: block;
+    color: red;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox label {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#hasil {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+#hasil h3 {
+    margin-top: 0;
+}
+
+#hasil p {
+    margin: 6px 0;
+}
